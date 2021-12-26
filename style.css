@@ -1,0 +1,18 @@
+body {
+    font-family: arial;
+    font-size: 16px;
+    line-height: 1.5;
+
+    background-color: #fff;
+    color: #333;
+    
+}
+
+/* The below fixes the inertia scroll bug, however only for iOS */
+canvas {
+    vertical-align: bottom;
+}
+
+html, body {
+    position: fixed;
+}
