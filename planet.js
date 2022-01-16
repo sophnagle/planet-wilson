@@ -128,7 +128,7 @@ const renderer = new THREE.WebGLRenderer({
   const ring1 = makeRing(1100, 0xff4141)
   const ring2 = makeRing(1200, 0xffffff)
   const ring3 = makeRing(1300, 0xffdb00)
-  const stars = makeStars("hi.png", 1000)
+  const stars = makeStars("particle.png", 1000)
   const stars2 = makeStars("particle.png", 4000)
   // const line = makeLine()
   
@@ -191,7 +191,7 @@ const renderer = new THREE.WebGLRenderer({
   // variation: scroll down page
   // document.addEventListener("scroll", function () {
   //   const scrollPosition = window.pageYOffset
-    
+        //euler
   //   earth.rotation.set(0, scrollPosition / 100, 0)
   // })
   
